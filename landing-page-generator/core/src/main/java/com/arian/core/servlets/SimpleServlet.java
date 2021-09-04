@@ -38,7 +38,7 @@ import java.io.IOException;
  */
 @Component(service = { Servlet.class })
 @SlingServletResourceTypes(
-        resourceTypes="landing-page-generator/components/page",
+        resourceTypes="landing-page-generator/components/remotepage",
         methods=HttpConstants.METHOD_GET,
         extensions="txt")
 @ServiceDescription("Simple Demo Servlet")
@@ -49,8 +49,17 @@ public class SimpleServlet extends SlingSafeMethodsServlet {
     @Override
     protected void doGet(final SlingHttpServletRequest req,
             final SlingHttpServletResponse resp) throws ServletException, IOException {
+        
+        String respuesta = "";
+        String pepe = req.getParameter("pepe");
+        if(pepe!=null) {
+        	respuesta = respuesta + pepe;
+        }
+        
         final Resource resource = req.getResource();
+        respuesta = respuesta + resource.getValueMap().get(JcrConstants.JCR_TITLE);
+        
         resp.setContentType("text/plain");
-        resp.getWriter().write("Title = " + resource.getValueMap().get(JcrConstants.JCR_TITLE));
+        resp.getWriter().write("Respuesta = " + respuesta);
     }
 }
