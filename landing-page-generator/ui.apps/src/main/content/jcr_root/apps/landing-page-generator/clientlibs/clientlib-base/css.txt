@@ -13,3 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ###############################################################################
+#base=css
+LineIcons.css
+animate.css
+bootstrap.min.css
+default.css
+jquery.nice-number.min.css
+magnific-popup.css
+responsive.css
+slick.css
+style.css
+style.css.map
