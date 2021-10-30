@@ -2,6 +2,8 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/landing-page-generator" mode="merge"/>
     <filter root="/content/landing-page-generator" mode="merge"/>
-    <filter root="/content/dam/landing-page-generator/asset.jpg" mode="merge"/>
+    <filter root="/content/dam/landing-page-generator">
+        <include pattern="/content/dam/landing-page-generator(/.*)?" />
+    </filter>
     <filter root="/content/experience-fragments/landing-page-generator" mode="merge"/>
 </workspaceFilter>
