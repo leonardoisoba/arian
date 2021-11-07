@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:allowedTemplates="[/conf/landing-page-generator/settings/wcm/templates/(?!(landing|root)).*]"
-        cq:lastModified="{Date}2021-11-06T10:48:02.891-03:00"
+        cq:lastModified="{Date}2021-11-07T12:30:49.457-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/landing-page-generator/settings/wcm/templates/landing-page"
         jcr:primaryType="cq:PageContent"
@@ -21,12 +21,16 @@
                     layout="responsiveGrid"/>
             </container>
         </root>
-        <tilescontainer
-            jcr:lastModified="{Date}2021-11-06T10:48:02.890-03:00"
-            jcr:lastModifiedBy="admin"
+        <main-parsys
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="landing-page-generator/components/tilescontainer"
-            subtitle="saasdasdsa"
-            title="titulo fgdfgfd sso"/>
+            sling:resourceType="foundation/components/parsys">
+            <tilescontainer
+                jcr:created="{Date}2021-11-07T12:30:49.451-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-07T12:30:49.451-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="landing-page-generator/components/tilescontainer"/>
+        </main-parsys>
     </jcr:content>
 </jcr:root>

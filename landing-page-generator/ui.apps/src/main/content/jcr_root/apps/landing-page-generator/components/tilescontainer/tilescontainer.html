@@ -14,9 +14,18 @@
                 </div>
             </div> <!-- row -->
             
-           	<sly class="row justify-content-center" data-sly-resource="${'tiles-parsys' @ resourceType='wcm/foundation/components/parsys'}"></sly>
+            <sly data-sly-include="/lib/wcm/core/components/init/init.jsp" />
             
-  
+            <sly data-sly-test="${wcmmode.edit}">
+		        <sly data-sly-resource="${'tiles-parsys' @ resourceType='foundation/components/parsys'}"></sly>
+			</sly>
+			
+			<sly data-sly-test="${!wcmmode.edit}">
+				<div class="row justify-content-center">
+			        <sly data-sly-resource="${'tiles-parsys' @ resourceType='foundation/components/parsys', decoration='false'}"></sly>
+			    </div>
+			</sly>
+            
             <div class="row justify-content-center">
             
                <div class="col-lg-3 col-md-6 col-sm-8">
