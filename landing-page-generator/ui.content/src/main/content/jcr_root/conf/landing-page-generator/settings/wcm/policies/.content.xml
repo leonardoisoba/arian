@@ -341,29 +341,48 @@
             </page>
         </components>
     </landing-page-generator>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <parsys jcr:primaryType="nt:unstructured">
+                    <policy_1636211297670
+                        jcr:lastModified="{Date}2021-11-20T10:49:59.937-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="mainpage"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/landing-page-generator/components/tilescontainer]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <section jcr:primaryType="nt:unstructured"/>
+                    </policy_1636211297670>
+                </parsys>
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_853112857378300
+                        jcr:lastModified="{Date}2021-11-20T10:48:30.649-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="tile"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/landing-page-generator/components/tile">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_853112857378300>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
     <foundation jcr:primaryType="nt:unstructured">
         <components jcr:primaryType="nt:unstructured">
             <parsys jcr:primaryType="nt:unstructured">
-                <policy_1636211297670
-                    jcr:lastModified="{Date}2021-11-07T13:35:02.921-03:00"
+                <policy_1637416034503
+                    jcr:lastModified="{Date}2021-11-20T10:47:39.336-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="main parsys"
+                    jcr:title="tiles"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="/apps/landing-page-generator/components/tilescontainer">
+                    components="[/apps/landing-page-generator/components/tile,/apps/landing-page-generator/components/tilescontainer]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <section jcr:primaryType="nt:unstructured"/>
-                </policy_1636211297670>
-                <policy_1636211297671
-                    jcr:lastModified="{Date}2021-11-07T13:51:24.056-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="tiles container"
-                    sling:resourceType="wcm/core/components/policy/policy"
-                    components="/apps/landing-page-generator/components/tile">
-                    <jcr:content jcr:primaryType="nt:unstructured"/>
-                    <section jcr:primaryType="nt:unstructured"/>
-                </policy_1636211297671>
+                </policy_1637416034503>
             </parsys>
         </components>
     </foundation>

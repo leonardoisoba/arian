@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="ad666ee6-caa4-4dc6-8c57-21d0c0c5c01d">
     <jcr:content
+        cq:name="product-2.jpg"
+        cq:parentPath="/content/dam/landing-page-generator/images/discount-product"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-10-30T10:21:33.193-03:00"
+        jcr:lastModified="{Date}2021-10-30T16:41:12.154-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
-            dam:extracted="{Date}2021-10-30T10:21:32.948-03:00"
+            dam:extracted="{Date}2021-10-30T16:41:11.804-03:00"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -20,9 +23,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="0db7e1c4da754df8f0dcec740f716411d8dcf2fa"
-            dam:size="{Long}28231"
+            dam:sha1="f9b5f681587bd247b3962785bb28c82da22493c2"
+            dam:size="{Long}31199"
             dc:format="image/jpeg"
+            dc:modified="{Date}2021-10-30T16:41:08.678-03:00"
+            jcr:lastModified="{Date}2021-10-30T16:41:08.677-03:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}300"

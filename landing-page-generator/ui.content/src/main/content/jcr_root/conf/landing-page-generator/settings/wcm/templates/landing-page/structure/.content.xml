@@ -3,6 +3,8 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-11-20T10:50:16.003-03:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/landing-page-generator/settings/wcm/templates/landing-page"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="landing-page-generator/components/page">
@@ -53,5 +55,8 @@
                     width="{Long}1200"/>
             </breakpoints>
         </cq:responsive>
+        <main-parsys
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
     </jcr:content>
 </jcr:root>

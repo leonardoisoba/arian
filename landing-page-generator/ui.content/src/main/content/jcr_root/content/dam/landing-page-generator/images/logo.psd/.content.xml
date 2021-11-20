@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="7b020521-6cc2-4489-b90b-d16fecd3161e">
     <jcr:content
+        cq:name="logo.psd"
+        cq:parentPath="/content/dam/landing-page-generator/images"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-10-30T10:17:31.588-03:00"
+        jcr:lastModified="{Date}2021-10-30T16:41:12.083-03:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2021-10-30T10:17:31.217-03:00"
-            dam:sha1="c976d1df2d7adde2027124f24308b9a46f9321e0"
-            dam:size="{Long}58928"
+            dam:extracted="{Date}2021-10-30T16:41:11.541-03:00"
+            dam:sha1="49654d845208f7572b2e77b517cdc87a0e3e03b1"
+            dam:size="{Long}48532"
             dc:format="image/vnd.adobe.photoshop"
+            dc:modified="{Date}2021-10-30T16:41:09.732-03:00"
             exif:ColorSpace="{Long}65535"
             exif:PixelXDimension="{Long}150"
             exif:PixelYDimension="{Long}50"
+            jcr:lastModified="{Date}2021-10-30T16:41:09.732-03:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"

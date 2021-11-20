@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:allowedTemplates="[/conf/landing-page-generator/settings/wcm/templates/(?!(landing|root)).*]"
-        cq:lastModified="{Date}2021-11-07T12:30:49.457-03:00"
+        cq:lastModified="{Date}2021-11-20T12:43:12.724-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/landing-page-generator/settings/wcm/templates/landing-page"
         jcr:primaryType="cq:PageContent"
@@ -23,14 +23,47 @@
         </root>
         <main-parsys
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="foundation/components/parsys">
+            sling:resourceType="wcm/foundation/components/parsys">
             <tilescontainer
-                jcr:created="{Date}2021-11-07T12:30:49.451-03:00"
+                jcr:created="{Date}2021-11-06T12:10:18.396-03:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-07T12:30:49.451-03:00"
+                jcr:lastModified="{Date}2021-11-06T12:10:18.396-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="landing-page-generator/components/tilescontainer"/>
+                sling:resourceType="landing-page-generator/components/tilescontainer">
+                <tiles-parsys
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <tile
+                        jcr:created="{Date}2021-11-20T11:15:01.039-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-11-20T12:43:12.721-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="landing-page-generator/components/tile"
+                        name="German Mazza"
+                        rol="Founder"
+                        tileImage="/content/dam/landing-page-generator/images/team/t-1.png">
+                        <socialsNetworks jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                socialId="facebook"
+                                socialImage="/content/dam/landing-page-generator/images/icons/social/facebook-icon-16x16.png"
+                                socialName="Facebook"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                socialId="pepe"
+                                socialImage="/content/dam/landing-page-generator/images/icons/social/facebook-icon-16x16.png"
+                                socialName="Pepe"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                socialId="sarasa"
+                                socialImage="/content/dam/landing-page-generator/images/icons/social/facebook-icon-16x16.png"
+                                socialName="Sarasa"/>
+                        </socialsNetworks>
+                    </tile>
+                </tiles-parsys>
+            </tilescontainer>
         </main-parsys>
     </jcr:content>
 </jcr:root>
