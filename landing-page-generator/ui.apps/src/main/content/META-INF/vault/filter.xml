@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/landing-page-generator/clientlibs"/>
-    <filter root="/apps/landing-page-generator/components"/>
-    <filter root="/apps/landing-page-generator/i18n"/>
+    <filter root="/apps/landing-page-generator"/>
 </workspaceFilter>

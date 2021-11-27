@@ -1599,4 +1599,7 @@ p.form-message.error {
           color: #fc924b;
           cursor: pointer; }
 
+	.tile-m-30 {
+	    margin: 7%;
+	}
 /*# sourceMappingURL=style.css.map */

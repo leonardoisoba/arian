@@ -63,6 +63,12 @@
 					                        rootPath="/content/dam/landing-page-generator/images"
 					                        required="{Boolean}true"
 					                        name="./socialImage"/>
+					                    <socialLink
+					                        jcr:primaryType="nt:unstructured"
+					                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+					                        fieldLabel="Link"
+					                        required="{Boolean}true"
+					                        name="./socialLink"/>
                                     </items>
                                 </column>
                             </items>

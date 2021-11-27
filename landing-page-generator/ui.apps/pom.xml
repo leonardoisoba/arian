@@ -55,10 +55,6 @@
                     <name>landing-page-generator.ui.apps</name>
                     <packageType>application</packageType>
                     <repositoryStructurePackages>
-                        <repositoryStructurePackage>
-                            <groupId>com.arian</groupId>
-                            <artifactId>landing-page-generator.ui.apps.structure</artifactId>
-                        </repositoryStructurePackage>
                     </repositoryStructurePackages>
                     <dependencies>
                     </dependencies>
@@ -112,32 +108,17 @@
         </dependency>
 
         <dependency>
-            <groupId>com.arian</groupId>
-            <artifactId>landing-page-generator.ui.frontend</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-
-        <dependency>
-            <groupId>com.arian</groupId>
-            <artifactId>landing-page-generator.ui.apps.structure</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-
-        <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>aem-sdk-api</artifactId>
         </dependency>
-
-<dependency>
-  <groupId>com.adobe.cq</groupId>
-  <artifactId>core.wcm.components.core</artifactId>
-</dependency>
-<dependency>
-    <groupId>com.adobe.commerce.cif</groupId>
-    <artifactId>core-cif-components-core</artifactId>
-</dependency>
+		<dependency>
+		  <groupId>com.adobe.cq</groupId>
+		  <artifactId>core.wcm.components.core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.adobe.commerce.cif</groupId>
+			<artifactId>core-cif-components-core</artifactId>
+		</dependency>
         <!-- HTL dependencies needed for the HTL Maven Plugin source code generation -->
         <dependency>
             <groupId>org.apache.sling</groupId>

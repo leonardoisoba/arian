@@ -10,7 +10,7 @@ public class TilesContainerModel extends WCMUsePojo {
 	@Override
 	public void activate() throws Exception {
 		title = getProperties().get("title", "Enter a Title");
-		subtitle = getProperties().get("subtitle", "Enter a SubTitle");
+		subtitle = getProperties().get("subtitle", String.class);
 	}
 
 	public String getTitle() {
