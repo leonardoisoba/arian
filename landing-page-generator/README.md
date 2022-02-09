@@ -1,4 +1,4 @@
-# Sample AEM project template
+# Sample AEM project template 
 
 
 https://onepagelove.com/furnish
