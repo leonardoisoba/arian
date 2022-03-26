@@ -351,7 +351,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="mainpage"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/landing-page-generator/components/tilescontainer]">
+                        components="[/apps/landing-page-generator/components/tilescontainer,/apps/landing-page-generator/components/imagegallerycontainer]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <section jcr:primaryType="nt:unstructured"/>
                     </policy_1636211297670>
@@ -379,7 +379,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="tiles"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/apps/landing-page-generator/components/tile,/apps/landing-page-generator/components/tilescontainer]">
+                    components="[/apps/landing-page-generator/components/tile,/apps/landing-page-generator/components/tilescontainer,/apps/landing-page-generator/components/imagegallerycontainer]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <section jcr:primaryType="nt:unstructured"/>
                 </policy_1637416034503>
