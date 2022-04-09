@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Arian Sites Project - UI content
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.arian:arian.ui.content:0.0.1-SNAPSHOT
+Content-Package-Description: UI content package for Arian Sites Project
+Content-Package-Dependencies: com.arian:arian.ui.apps:0.0.1-SNAPSHOT
+Content-Package-Dependencies-Locations: com.arian:arian.ui.apps:0.0.1-SN
+ APSHOT=maven:com.arian:arian.ui.apps:0.0.1-SNAPSHOT:zip
+Content-Package-Roots: /conf/arian,/content/arian,/content/dam/arian,/co
+ ntent/dam/arian/asset.jpg,/content/experience-fragments/arian
+

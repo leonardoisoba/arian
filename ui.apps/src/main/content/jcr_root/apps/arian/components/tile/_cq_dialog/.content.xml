@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <name
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Name"
+                        required="{Boolean}true"
+                        name="./name"/>
+                    <rol
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Rol"
+                        required="{Boolean}true"
+                        name="./rol"/>
+                    <tileImage
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                        fieldLabel="Tile image"
+                        rootPath="/content/dam/arian/images"
+                        required="{Boolean}true"
+                        name="./tileImage"/>
+                        
+                    <socials
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                        composite="{Boolean}true"
+                        fieldLabel="Social networks">
+                        <field
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            name="./socialsNetworks">
+                            <items jcr:primaryType="nt:unstructured">
+                                <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                    <items jcr:primaryType="nt:unstructured">
+                                    	<socialId
+					                        jcr:primaryType="nt:unstructured"
+					                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+					                        fieldLabel="ID"
+					                        required="{Boolean}true"
+					                        name="./socialId"/>
+					                    <socialName
+					                        jcr:primaryType="nt:unstructured"
+					                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+					                        fieldLabel="Name"
+					                        name="./socialName"/>
+                                        <socialImage
+					                        jcr:primaryType="nt:unstructured"
+					                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+					                        fieldLabel="Image"
+					                        rootPath="/content/dam/arian/images"
+					                        required="{Boolean}true"
+					                        name="./socialImage"/>
+					                    <socialLink
+					                        jcr:primaryType="nt:unstructured"
+					                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+					                        fieldLabel="Link"
+					                        required="{Boolean}true"
+					                        name="./socialLink"/>
+                                    </items>
+                                </column>
+                            </items>
+                        </field>
+                    </socials>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

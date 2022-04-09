@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/arian" mode="merge">
+    	<include pattern="/conf/arian(/.*)?" />
+    </filter>
+    <filter root="/conf/arian" mode="merge"/>
+    <filter root="/content/arian" mode="merge"/>
+    <filter root="/content/dam/arian" mode="merge">
+        <include pattern="/content/dam/arian(/.*)?" />
+    </filter>
+    <filter root="/content/dam/arian/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/arian" mode="merge"/>
+</workspaceFilter>
