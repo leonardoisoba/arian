@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/apps/arian/clientlibs"/>
-    <filter root="/apps/arian/components"/>
-    <filter root="/apps/arian/i18n"/>
-</workspaceFilter>
