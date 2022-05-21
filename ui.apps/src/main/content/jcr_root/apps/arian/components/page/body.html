@@ -1,12 +1,12 @@
-	<sly
-		data-sly-use.templatedContainer="com.day.cq.wcm.foundation.TemplatedContainer"
-		data-sly-repeat.child="${templatedContainer.structureResources}"
-		data-sly-resource="${child.path @ resourceType=child.resourceType, decorationTagName='div'}"></sly>
-	
 	<sly data-sly-include="preloader.html"></sly>
 	
 	<sly data-sly-resource="${@ resourceType='arian/components/landing-header', decorationTagName='div'}"></sly>
 	
+	<sly
+		data-sly-use.templatedContainer="com.day.cq.wcm.foundation.TemplatedContainer"
+		data-sly-repeat.child="${templatedContainer.structureResources}"
+		data-sly-resource="${child.path @ resourceType=child.resourceType, decorationTagName='div'}"></sly>
+		
 	<sly data-sly-include="slider.html"></sly>
 	
 	<sly data-sly-include="discountProduct.html"></sly>

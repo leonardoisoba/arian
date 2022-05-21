@@ -4,7 +4,7 @@
                             <img src="${tile.titleImage}" alt="Team">
                         </div>
                         <div class="team-content mt-30">
-                            <h4 class="title mb-10">${tile.name}</h4>
+                        	<div class="team-name">${tile.name @ context='html' }</div>
                             <span>${tile.rol}</span>
                             <ul class="social mt-15">
                               <sly data-sly-list.socialNetwork="${tile.socialsNetworks}">

@@ -5,4 +5,4 @@
     componentGroup="Arian Sites Project - Content"
     cq:isContainer="{Boolean}true"
     jcr:description="Container for components for image gallery"
-    sling:resourceSuperType="core/wcm/components/form/container/v2/container"/>
+    sling:resourceSuperType="core/wcm/components/carousel/v1/carousel"/>

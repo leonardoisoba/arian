@@ -16,13 +16,14 @@ public class ImageGalleryItem extends WCMUsePojo {
 	private String offerttext;
 	private String image;
 	private String imageAlt ;
+	
 
 	@Override
 	public void activate() throws Exception {
 		title = getProperties().get("title", "Enter a title");
 		subtitle = getProperties().get("subtitle", "Enter a subtitle");
-		offerttext = getProperties().get("offerttext", "Enter a offert");
-		image = getProperties().get("image", "Enter a image");
+		offerttext = getProperties().get("offertText", "Enter a offert");
+		image = getProperties().get("galleryImageItem", "Enter a image");
 		imageAlt = getProperties().get("imageAlt", "Enter a image alternative");
 	}
 
